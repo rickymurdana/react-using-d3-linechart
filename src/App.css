@@ -7,6 +7,30 @@
   pointer-events: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.chart {
+  padding: 30px;
+  background: #23263a;
+  color: #fff;
+  margin: 20px;
+  /* margin-top: 100px; */
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.linechart {
+  margin-top: 100px;
+  margin: auto;
+}
+
+.svg {
+  margin: auto;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
